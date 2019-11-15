@@ -25,7 +25,6 @@ resource "aws_iam_role_policy" "autoscale_handling" {
         "autoscaling:DescribeAutoScalingGroups",
         "autoscaling:CompleteLifecycleAction",
         "ec2:DescribeInstances",
-        "route53:GetHostedZone",
         "ec2:CreateTags"
       ],
       "Effect":"Allow",
